@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/background">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="235dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="74dp"
+            android:layout_marginBottom="0dp"
+            android:text="button"
+            android:background="@drawable/btnbkg"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="235dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="150dp"
+            android:text="key_words"
+            android:background="@drawable/btnbkg"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="235dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="300dp"
+            android:background="@drawable/btnbkg"
+            android:text="timeline" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="235dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="450dp"
+            android:background="@drawable/btnbkg"
+            android:text="control_slides" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
